@@ -1,7 +1,7 @@
 USE_GENERIC_CACHE=true
-LANCACHE_IP=10.0.39.1 (or your machine's static IP)
-DNS_BIND_IP=10.0.39.1 (or your machine's static IP)
-UPSTREAM_DNS=1.1.1.1
+LANCACHE_IP=(your machine's static IP)
+DNS_BIND_IP=(machine's static IP)
+UPSTREAM_DNS=(your DNS server, if none use a public one like 1.1.1.1)
 CACHE_ROOT=./lancache
 CACHE_DISK_SIZE=2000000m
 CACHE_INDEX_SIZE=500m
